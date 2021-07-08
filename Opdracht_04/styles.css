@@ -1,0 +1,14 @@
+body {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: aliceblue;
+}
+h1, h2 {
+    color: steelblue ;
+} 
+img, .photo {
+	border: 2px solid #71a6d2;
+    border-radius: 40px;
+	background-color: whitesmoke    ;
+	padding: 4px;
+}
