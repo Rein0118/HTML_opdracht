@@ -1,0 +1,55 @@
+<!-- Color scheme steelblue #191970 (dark navy blue) #ffebcd (kinda blanchedalmond) -->
+
+body {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: aliceblue;
+    padding: top
+}
+
+nav {
+    margin: 10px;
+    }
+
+.bar li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.headings {
+    color: steelblue ;
+    margin: 0  auto;
+    width: 50%;
+} 
+
+.border {
+    border: 3px solid #191970; 
+    margin: 10px;
+    padding: 10px;
+}
+.photo {
+    border: 2px solid #71a6d2;
+    border-radius: 40px;
+	background-color: whitesmoke    ;
+	padding: 4px;  
+   }
+
+@media only screen 
+    and (min-width: 378px) { 
+        .headings {
+            margin:  0 auto;
+            width: 60%;
+        }
+    }
+
+@media only screen 
+  and (min-width: 1025px) {
+      body {
+          color: seagreen;
+          font-size: 20px;
+          line-height: 30px
+      }  
+    } 
+ 
