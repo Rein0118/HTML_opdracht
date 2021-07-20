@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- hier zet je de code in de head tags -->
+    <title> Recepten </title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <!-- hier zet je de code in de body tags-->
+    <nav>
+        <ul class="bar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">Wie ben ik?</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <form name="recepten" method="POST" data-netlify="true">
+        <p>
+            <label> Naam: <input type="text" name="Name" /></label>
+        </p>
+        <p>
+            <label> Email: <input type="email" name="email" /></label>
+        </p>
+        <p>
+            <label> Telefoonnummer (tel): <input type="tel" name="Tel"></label>
+        </p>
+        <p>
+            <label> Leeftijd: <input type="number" name="Leeftijd"></label>
+        </p>
+        <p>
+            <label> Geboortedatum: <input type="date" name="Geboortedatum"></label>
+        </p>
+        <p>Geslacht:</p>
+        <input type="radio" id="man" name="geslacht" value="man">
+          <label for="man">Man</label><br>
+          <input type="radio" id="vrouw" name="geslacht" value="vrouw">
+          <label for="vrouw">Vrouw</label><br>
+          <input type="radio" id="anders" name="geslacht" value="anders">
+          <label for="anders">Anders</label>
+        <p>Favoriete keuken:</p>
+        <input type="checkbox" id="keuken1" name="keuken1" value="frans">
+        <label for="keuken1">Frans</label><br>
+        <input type="checkbox" id="keuken2" name="keuken2" value="italiaans">
+        <label for="keuken2">Italiaans</label><br>
+        <input type="checkbox" id="keuken3" name="keuken3" value="spaans">
+        <label for="keuken3">Spaans</label><br>
+        <input type="checkbox" id="keuken4" name="keuken4" value="arabisch">
+        <label for="keuken4">Arabisch</label><br>
+        <p>Favoriete kleur van schort:</p>
+        <label for="favcolor"> Selecteer je favoriete kleur</label>
+        <input type="color" id="favcolor" name="favcolor">
+        <p>
+            <label> Biografie: <textarea name="biografie" id="" cols="30" rows="10"></textarea></label>
+        </p>
+        <p>
+            <label for="myfile"> Laatste recept (upload een file)</label>
+            <input type="file" id="myfile" name="myfile">
+        </p>
+        <p>
+            <label for="homepage">Voeg je website toe:</label>
+            <input type="url" id="homepage" name="homepage">
+        </p>
+        <p>
+            <button type="submit">Verzenden</button> <button type="reset">Resetten</button>
+        </p>
+
+    </form>
+</body>
+
+</html>
