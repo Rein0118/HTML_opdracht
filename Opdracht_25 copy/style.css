@@ -1,0 +1,83 @@
+.background-color {
+    background-color: burlywood;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.nav-hamburger {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1000;
+}
+.btn-toggle-nav {
+ width: 60px;
+ height: 100%;
+ background-image: url("img/1598355306_hamburger_menu.png");
+ background-repeat: no-repeat;
+ background-size: 100%;
+ background-position: center;
+ cursor: pointer;
+}
+
+.btn-toggle-nav:hover {
+    opacity: 0.5;
+   }
+
+.nav-sidebar {
+    padding-top: 70px;
+    width: 100px;
+    margin-left: 10px;
+   }
+
+.nav-sidebar ul {
+    list-style: none;
+    padding: 5px;
+}
+
+.nav-sidebar ul li a {
+    line-height: 50px;
+    padding: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+   color: #111;
+   transition: all 0.3s ease-in-out;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.reveal {
+    visibility: visible;
+}
+
+
+.link1 {
+    background-color: burlywood;
+}
+
+.link2 {
+    background-color: blue;
+}
+
+.link3 {
+    background-color: red;
+}
+
+.link4 {
+    background-color: yellow;
+}
